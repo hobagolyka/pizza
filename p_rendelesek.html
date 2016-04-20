@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rendeléseink</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/alapstyles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container" id="para1">
+    <h1>Üdv!</h1>
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Pizzakövető</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="p_kezdolap.html">Adataink</a></li>
+                    <li class="active"><a href="#">Rendeléseink</a></li>
+                    <li><a href="p_etlap.html">Étlapunk</a></li>
+                    <li><a href="index.html">Kilépés</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h2 id="para1">Rendeléseink</h2>
+        <table class="table table-hover" id="para1">
+            <thead>
+            <tr>
+                <th>Rendelés időpontja</th>
+                <th>Felhasználó név</th>
+                <th>Rendelt pizzák</th>
+                <th>Státusz</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>11:33</td>
+                <td>
+                    <a href="#" title="Felhasználó adatai" data-toggle="popover" data-trigger="focus" data-content="Kovács Zsigmond, 1111 Budapest Alma utca 1, 21. emelet 56. ajtó">Zsiga</a>
+                    <script>
+                        $(document).ready(function(){
+                            $('[data-toggle="popover"]').popover();
+                        });
+                    </script>
+                </td>
+                <td>magyaros, hawaii</td>
+                <td><div class="form-group">
+                    <select class="form-control" id="sel1">
+                        <option>Megrendelve</option>
+                        <option>Kemencében</option>
+                        <option>Bedobozolva</option>
+                        <option>Futár átvette</option>
+                        <option>Futár félúton</option>
+                        <option>Futár megérkezett</option>
+                    </select>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>12:03</td>
+                <td>
+                    <a href="#" title="Felhasználó adatai" data-toggle="popover" data-trigger="focus" data-content="Kovács Zsigmond, 1111 Budapest Alma utca 1, 21. emelet 56. ajtó">Gazsi</a>
+                </td>
+                <td>songoku</td>
+                <td>
+                    <div class="form-group">
+                        <select class="form-control" id="sel1">
+                            <option>Megrendelve</option>
+                            <option>Kemencében</option>
+                            <option>Bedobozolva</option>
+                            <option>Futár átvette</option>
+                            <option>Futár félúton</option>
+                            <option>Futár megérkezett</option>
+                        </select>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>12:13</td>
+                <td>
+                    <a href="#" title="Felhasználó adatai" data-toggle="popover" data-trigger="focus" data-content="Kovács Zsigmond, 1111 Budapest Alma utca 1, 21. emelet 56. ajtó">Donald</a>
+                </td>
+                <td>songoku</td>
+                <td><div class="form-group">
+                    <select class="form-control" id="sel1">
+                        <option>Megrendelve</option>
+                        <option>Kemencében</option>
+                        <option>Bedobozolva</option>
+                        <option>Futár átvette</option>
+                        <option>Futár félúton</option>
+                        <option>Futár megérkezett</option>
+                    </select>
+                </div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+</html>
