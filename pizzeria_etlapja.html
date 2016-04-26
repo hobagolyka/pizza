@@ -5,6 +5,8 @@
     <title>Pizzacucc</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/alapstyles.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="container" id="para1">
@@ -18,37 +20,41 @@
                 <ul class="nav navbar-nav">
                     <li><a href="user_kezdolap.html">Adataim</a></li>
                     <li><a href="user_rendeleseim.html">Rendeléseim</a></li>
-                    <li class="active"><a href="user_pizzeriak.html">Pizzériák</a></li>
+                    <li><a href="user_pizzeriak.html">Pizzériák</a></li>
                     <li><a href="index.html">Kilépés</a></li>
                 </ul>
             </div>
         </nav>
+        <h2 id="para1">Étlapunk</h2>
         <table class="table table-hover" id="para1">
             <thead>
             <tr>
-                <th>Pizzéria</th>
-                <th>Pizzéria étlapja</th>
+                <th>Pizza</th>
+                <th>Ár</th>
+                <th>Rendelt mennyiség</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>A pizzéria</td>
-                <td> <button type="button" class="btn">
-                    <a href="pizzeria_etlapja.html">Megnézem az étlapot</a>
-                </button></td>
+                <td>Magyaros</td>
+                <td>1000 HUF</td>
+                <td><input type="text" class="form-control" id="usr"></td>
             </tr>
             <tr>
-                <td>B Pizzéria</td>
-                <td><button type="button" class="btn"><a href="#">Megnézem az étlapot</a></button></td>
+                <td>Songoku</td>
+                <td>1000 HUF</td>
+                <td><input type="text" class="form-control" id="usr"></td>
             </tr>
             <tr>
-                <td>C pizzéria</td>
-                <td> <button type="button" class="btn">
-                    <a href="#">Megnézem az étlapot</a>
-                </button></td>
+                <td>Hawaii</td>
+                <td>1000 HUF</td>
+                <td><input type="text" class="form-control" id="usr"></td>
             </tr>
             </tbody>
         </table>
+        <button type="button" class="btn">
+            <a href="#">Megrendelem</a>
+        </button>
     </div>
 </div>
 </body>
