@@ -1,0 +1,47 @@
+{
+  "category_name": "felhasznalok",
+  "users": [
+    {
+      "felhasznalo_nev": "zsiga",
+      "nev": "Kovacs Zsigmond",
+      "iranyitoszam": "1111",
+      "telepules": "Budapest",
+      "utca": "Alma",
+      "hazszam": "10",
+      "emelet": "3",
+      "ajto": "12",
+      "kapucsengo": "12",
+      "rendelesek": [{
+          "statusz": "megrendelve",
+          "idopont": "12:02",
+          "pizzak": [{
+            "darab": "5",
+            "pizza": "magyaros"
+          }]
+      }]
+    },
+    {
+      "felhasznalo_nev": "gazsi",
+      "nev": "Kiss Gerzson",
+      "iranyitoszam": "7424",
+      "telepules": "Tata",
+      "utca": "Körte",
+      "hazszam": "2",
+      "emelet": "1",
+      "ajto": "11",
+      "kapucsengo": "11",
+      "rendelesek": [{
+        "statusz": "megrendelve",
+        "idopont": "11:29",
+        "pizzak": [{
+          "darab": "5",
+          "pizza": "magyaros"
+        },
+        {
+          "darab": "1",
+          "pizza": "hawaii"
+        }]
+      }]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "category_name": "pizzeriak",
+  "pizzeria": [
+    {
+      "felhasznalo_nev": "apizza",
+      "nev": "A pizzéria",
+      "iranyitoszam": "1131",
+      "telepules": "Budapest",
+      "utca": "Barack",
+      "hazszam": "10",
+      "url": "etlap",
+      "kinalat": [
+        {"pnev": "magyaros",
+          "ar": "1000 HUF"},
+        {"pnev": "hawaii",
+          "ar": "1000 HUF"},
+        {"pnev": "songoku",
+          "ar": "1000 HUF"}
+      ]
+    },
+    {
+      "felhasznalo_nev": "bpizza",
+      "nev": "B pizzéria",
+      "iranyitoszam": "7424",
+      "telepules": "Tata",
+      "utca": "Akácfa",
+      "házszam": "34",
+      "url": "etlap",
+      "kinalat": [
+        {"pnev": "magyaros",
+          "ar": "1000 HUF"},
+        {"pnev": "hawaii",
+          "ar": "1000 HUF"},
+        {"pnev": "songoku",
+          "ar": "1000 HUF"}
+      ]
+    },
+    {
+      "felhasznalo_nev": "borspizza",
+      "nev": "Borsos pizzéria",
+      "iranyitoszam": "1234",
+      "telepules": "Tatabánya",
+      "utca": "Liliom",
+      "hazszam": "2",
+      "url": "etlap",
+      "kinalat": [
+        {"pnev": "magyaros",
+          "ar": "1000 HUF"},
+        {"pnev": "hawaii",
+          "ar": "1000 HUF"},
+        {"pnev": "songoku",
+          "ar": "1000 HUF"}
+      ]
+    }
+  ]
+}

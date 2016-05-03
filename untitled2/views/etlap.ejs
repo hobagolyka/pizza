@@ -1,0 +1,24 @@
+<%include header.ejs%>
+<%var i=0%>
+<h3><%=pizzeriak.pizzeria[i].nev%> étlapja</h3>
+<table class="table table-hover" id="para1">
+    <thead>
+    <tr>
+        <th>Pizza</th>
+        <th>Ár</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <%pizzeriak.pizzeria[i].kinalat.forEach(function(item){%>
+    <tr>
+        <td><%=item.pnev%></td>
+        <td><%=item.ar%></td>
+    </tr>
+    <%}); %>
+    </tbody>
+</table>
+<button type="button" class="btn">
+    <a href="/user_pizzeriak">vissza</a>
+</button>
+<%include footer.ejs%>

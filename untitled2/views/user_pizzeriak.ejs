@@ -1,0 +1,21 @@
+<%include header.ejs%>
+<table class="table table-hover" id="para1">
+    <thead>
+    <tr>
+        <th>Pizzéria</th>
+        <th>Pizzéria étlapja</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    <%pizzeriak.pizzeria.forEach(function(item){%>
+        <tr>
+            <td><p><%=item.nev%></p></td>
+            <td> <button type="button" class="btn">
+                    <a href="<%=item.url%>">Megnézem az étlapot</a>
+                </button></td>
+        </tr>
+    <%}); %>
+    </tbody>
+</table>
+<%include footer.ejs%>

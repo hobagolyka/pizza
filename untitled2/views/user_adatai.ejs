@@ -1,0 +1,64 @@
+<%include header.ejs%>
+<%var i=1%>
+<form class="form-horizontal" role="form">
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Név</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].nev%>">
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword" class="col-sm-2 control-label">Felhasználó név</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="disabledInput" type="text" placeholder="<%=users.users[i].felhasznalo_nev%>" disabled>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Irányítószám</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].iranyitoszam%>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Település</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].telepules%>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Utca</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].utca%>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Házszám</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].hazszam%>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Emelet</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].emelet%>">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Ajtó</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].ajto%>">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label">Kapucsengő</label>
+        <div class="col-sm-10">
+            <input class="form-control" id="focusedInput" type="text" value="<%=users.users[i].kapucsengo%>">
+        </div>
+    </div>
+</form>
+<button type="button" class="btn">
+    <a href="#">Módosítom</a>
+</button>
+<%include footer.ejs%>
